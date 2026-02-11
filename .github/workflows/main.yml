@@ -22,7 +22,7 @@ jobs:
       - name: Run Data Pipeline Script
         run: |
           # --- 변수 설정 (본인 이름으로 수정 필수) ---
-          USER_NAME="HongGildong"
+          USER_NAME="Choi"
           FILE_NAME="${USER_NAME}_test.json"
           # ----------------------------------------
 
@@ -74,4 +74,3 @@ jobs:
           git push
 
 
-          
